@@ -22,7 +22,7 @@ None
 # Module
 ##############
 module "ecs_cluster_apis" {
-  source = "github.com/virsas/terraform_ecs_cluster"
+  source = "git::https://github.com/virsas/terraform_ecs_cluster.git?ref=v1.0.0"
   name = "APIs"
 }
 ```
